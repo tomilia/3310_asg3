@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clip_list"
+    android:name="com.example.tommylee.cuhilltown.ClipListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="11dp"
+    app:layoutManager="LinearLayoutManager"
+    tools:context=".ClipListActivity"
+    tools:listitem="@layout/clip_list_content" />
